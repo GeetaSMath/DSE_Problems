@@ -5,3 +5,4 @@ def count_words(sentence):
 # Example usage:
 sentence = "Hello, how are you?"
 print("Number of words in the sentence:", count_words(sentence))
+

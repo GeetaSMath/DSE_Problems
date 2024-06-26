@@ -8,3 +8,26 @@ def  fizz_buzz(n):
             print("buzz")
 
 fizz_buzz(15)
+
+class Node:
+    def __init__(self,data):
+        self.data=data
+        self.ref=None
+
+
+class Linkedlst:
+    def __init__(self):
+        self.head=None
+
+    def traverse_ll(self):
+        if self.head is None:
+            print("linked list is empty")
+        else:
+            n=self.head
+            while n is not None:
+                print(n.data)
+                n=n.ref
+node=Linkedlst()
+node.traverse_ll()
+print(node)
+
